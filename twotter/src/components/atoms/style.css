@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navbar{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 100vw;
+    height: 3rem;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+    position: fixed;
+}
+
+.user-name-container {
+    display: flex;
+}
+
+.user-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    height: 40vh;
+    justify-content: center;
+    position: absolute;
+    top: 3rem;
+    width: 100vw;
+}
+
+.user-section-container-2{
+    display: flex;
+}
