@@ -3,9 +3,7 @@ import React, { Component } from 'react';
 class Input extends Component {
     render() {
         return (
-            <div>
-                
-            </div>
+            <input className='inputTwoot' type="text" placeholder='What are you hummming about' />
         );
     }
 }

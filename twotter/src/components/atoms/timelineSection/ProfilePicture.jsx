@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Title extends Component {
+class ProfilePicture extends Component {
     render() {
         return (
             <div>
-                Compose Twoot
+                {this.props.icon}
             </div>
         );
     }
 }
 
-export default Title;
+export default ProfilePicture;

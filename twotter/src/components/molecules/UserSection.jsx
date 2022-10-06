@@ -3,6 +3,8 @@ import AuthorName from "../atoms/userSection/AuthorName";
 import EditButton from "../atoms/userSection/EditButton";
 import Username from "../atoms/userSection/Username";
 import UserPicture from "../atoms/userSection/UserPicture";
+import { FiEdit } from 'react-icons/fi'
+
 
 
 class UserSection extends React.Component{
@@ -13,7 +15,7 @@ class UserSection extends React.Component{
             </div>
             <div className="user-section-container-2">
                 <Username></Username>
-                <EditButton></EditButton>
+                <EditButton icon={<FiEdit />}></EditButton>
             </div>
             <div>
             <AuthorName></AuthorName>

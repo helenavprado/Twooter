@@ -4,7 +4,7 @@ class Characters extends Component {
     render() {
         return (
             <div>
-                
+                140
             </div>
         );
     }

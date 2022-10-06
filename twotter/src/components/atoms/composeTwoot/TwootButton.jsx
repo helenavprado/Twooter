@@ -2,11 +2,7 @@ import React, { Component } from 'react';
 
 class TwootButton extends Component {
     render() {
-        return (
-            <div>
-                
-            </div>
-        );
+        return <button className='twoot-button'>Twoot</button>;
     }
 }
 
